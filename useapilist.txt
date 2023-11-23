@@ -1,0 +1,41 @@
+\\ logfile apilist start
+
+// website api log by zhaozixuan 2023 11 23
+
+// [xuanpage.netlify.app] [xuanpage.github.io] used these apis in "index.html" list:
+
+// api servers:
+
+// server1 api1 [fun.em0bu.cn]
+
+// server2 api1 [g2.igroutka.ru]
+
+// server2 api2 [g.igroutka.ru]
+
+// server3 api1 [gi.qijieya.cn]
+
+// server4 api1 [genshin.gamemcu.com]
+
+// server5 api1 [ys.mihoyo.com]
+
+// server6 api1 [cg.163.com]
+
+// server7 api1 [gamer.qq.com]
+
+// server8 api1 [start.qq.com]
+
+// server9 api1 [eaglercraft.com]
+
+// server10 api1 [imc.cab]
+
+// server11 api1 [lonelystar.org]
+
+// server12 api1 [zhiwudazhanjiangshi.com]
+
+// server13 api1 [pvz.56wan.com]
+
+// server14 api1 [www.jspvz.com]
+
+// server15 api1 [html5.huceo.com]
+
+\\ logfile apilist end
