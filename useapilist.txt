@@ -38,4 +38,14 @@
 
 // server15 api1 [html5.huceo.com]
 
+// image servers:
+
+// server1 img1 [xuanpage.netlify.app]
+
+// server2 img1 [img2.baidu.com]
+
+// server3 img1 [webinput.nie.netease.com]
+
+// server4 img1 [img.xiayx.com]
+
 \\ logfile apilist end
