@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>游戏启动中，请稍后...</title>
+		<link rel="shortcut icon" type="image/x-icon" href="https://ka-game.netlify.app/favicon.ico">
+		<link rel="icon" type="image/x-icon" href="https://ka-game.netlify.app/favicon.ico">
+		<style>
+			@font-face {
+				font-family: websitefont;
+				src: url('mcfonttest.ttf');
+			}
+
+			head {
+				font-family: websitefont;
+			}
+			body {
+				font-family: websitefont;
+			}
+			a {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: pink;
+			}
+
+			a:link {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: pink;
+			}
+
+			a:visited {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: pink;
+			}
+
+			a:hover {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				cursor: pointer;
+				color: white;
+			}
+
+			a:active {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: dodgerblue;
+			}
+			h1 {
+				text-shadow: 5px 5px 10px #888888;
+
+			}
+			h3 {
+				text-shadow: 5px 5px 10px #888888;
+
+			}
+		</style>
+	</head>
+	<body background="https://wallpaperbat.com/img/431619-minecraft-wallpaper-hd-4k-photo-minecraft-desktop-and-background.jpg" style="color:gray;
+																	background-repeat:no-repeat;
+																	background-attachment:fixed;
+																	background-size:100% 100%;">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1><center>游戏将在<span id="seconds">3</span>秒后启动</center></h1>
+			<h3><center>请稍后，正在启动游戏</center></h3>
+			<h3><center><a id="UrlId" href="https://ka-game.netlify.app/gamejumper">点我马上进入</a></center></h3>
+			<script>
+				var url = window.location.href;
+				url = url.match(/url=(\S*)/)[1];
+				document.getElementById("UrlId").href = url;
+				var seconds = document.getElementById("seconds");
+				var num = 3;
+				var timer = setInterval(function () {
+					num--;
+					seconds.innerText = num;
+					if(num == 0){
+						window.location.href = url;
+					}
+				},1000)
+			</script>
+	</body>
+</html>
