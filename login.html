@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<title>登录KAKA</title>
+		<link rel="icon" type="image/x-icon" href="https://ka-game.github.io/favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="https://ka-game.github.io/favicon.ico">
+		<script>
+			function kaLogin() {
+				var usrname = document.getElementById('usrname').value
+				var passwd = document.getElementById('passwd').value
+				if (usrname == 'admin' && passwd == 'admin') {
+					alert('欢迎用户' + usrname)
+					location.href='https://ka-game.github.io/'
+				} else {
+					if (usrname == 'zzx48' && passwd == 'zzx48') {
+						alert('欢迎用户' + usrname)
+						location.href='https://ka-game.github.io/'
+					} else {
+						alert('用户名或密码错误')
+					}
+				}
+			}
+		</script>
+		<style>
+			@font-face {
+				font-family: websitefont;
+				src: url('mcfonttest.ttf');
+			}
+
+			head {
+				font-family: websitefont;
+			}
+			body {
+				font-family: websitefont;
+			}
+			a {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: pink;
+			}
+
+			a:link {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: pink;
+			}
+
+			a:visited {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: pink;
+			}
+
+			a:hover {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				cursor: pointer;
+				color: white;
+			}
+
+			a:active {
+				text-decoration: none;
+				text-shadow: 5px 5px 10px #888888;
+				color: dodgerblue;
+			}
+			input[type=button] {
+				font-family: KaiTi, KaiTi_GB2312;
+				box-shadow: 5px 5px 5px #888888;
+				text-shadow: 5px 5px 10px #888888;
+				border-radius: 25px;
+				background-color: dodgerblue;
+				color: white;
+				border: 0;
+				width: 100px;
+				height: 35px;
+				font-size: 21.5px;
+			}
+			input[type=button]:hover {
+				font-family: KaiTi, KaiTi_GB2312;
+				box-shadow: 5px 5px 5px #888888;
+				text-shadow: 5px 5px 10px #888888;
+				cursor: pointer;
+				border-radius: 25px;
+				background-color: white;
+				color: dodgerblue;
+				border: 0;
+				width: 100px;
+				height: 35px;
+				font-size: 21.5px;
+			}
+			h1 {
+				text-shadow: 5px 5px 10px #888888;
+
+			}
+			h2 {
+				text-shadow: 5px 5px 10px #888888;
+
+			}
+			h3 {
+				text-shadow: 5px 5px 10px #888888;
+
+			}
+			h4 {
+				text-shadow: 5px 5px 10px #888888;
+
+			}
+			img {
+				border-radius: 35px;
+			}
+			input {
+				font-family: websitefont;
+				background-color: black;
+				font-size: 21.5px;
+				color: white;
+				width: 10vw;
+				height: 5vh;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body background="https://wallpaperbat.com/img/431619-minecraft-wallpaper-hd-4k-photo-minecraft-desktop-and-background.jpg" style="color:white;background-repeat:no-repeat;background-attachment:fixed;background-size:100% 100%;">
+		<h1><center><font color="pink">KAKA游戏-登录</font></center></h1>
+		<br>
+		<center><h2>用户名：<input id="usrname" /></h2></center>
+		<center><h2>密码：<input id="passwd" type="password" /></h2></center>
+		<center><input type="button" value="登录网站" onclick="kaLogin()" />
+	</body>
+</html>
